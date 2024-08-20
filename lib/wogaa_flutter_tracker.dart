@@ -13,7 +13,7 @@ class Tracker {
 
   Tracker._internal();
 
-  static void start({String env: 'staging'}) async {
+  static void start({String env = 'staging'}) async {
     String collectorUrl = 'snowplow.dcube.cloud';
 
     if (env == 'production') {

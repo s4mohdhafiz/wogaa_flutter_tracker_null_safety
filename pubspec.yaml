@@ -16,7 +16,7 @@ dependencies:
   package_info_plus: ^5.0.1
   snowplow:
     git:
-      url: https://github.com/chukyihjou-govtech/snowplow-flutter.git
+      url: git@github.com:s4mohdhafiz/snowplow-flutter_null_safety.git
       ref: main
 
 dev_dependencies:
